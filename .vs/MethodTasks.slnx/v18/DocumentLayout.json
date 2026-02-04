@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abdul\\OneDrive\\Desktop\\MethodTasks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6A5A45-1720-442C-9185-0B30120FB52A}|MethodTasks.TaskOne\\MethodTasks.TaskOne.csproj|c:\\users\\abdul\\onedrive\\desktop\\methodtasks\\methodtasks.taskone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6A5A45-1720-442C-9185-0B30120FB52A}|MethodTasks.TaskOne\\MethodTasks.TaskOne.csproj|solutionrelative:methodtasks.taskone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\MethodTasks\\MethodTasks.TaskOne\\Program.cs",
+              "RelativeDocumentMoniker": "MethodTasks.TaskOne\\Program.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\MethodTasks\\MethodTasks.TaskOne\\Program.cs",
+              "RelativeToolTip": "MethodTasks.TaskOne\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T18:52:04.35Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
