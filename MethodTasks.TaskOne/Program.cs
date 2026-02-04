@@ -7,6 +7,8 @@ Console.WriteLine(CountSingle(1,10));
 Console.WriteLine(SumSingle(1, 10));
 Console.WriteLine(SimpleOrComplex(102));
 Console.WriteLine(SumCoupleinArray([10,11,12,13,14,15]));
+Console.WriteLine(string.Join(", ", FactorialArray(new int[] { 1, 5, 8 })));
+Console.WriteLine(string.Join(", ", Massiv(new int[] { 1, 5, 8 })));
 
 Console.ReadLine();
 
@@ -107,5 +109,48 @@ int SumCoupleinArray(int[] couplearray)
             sum += couplearray[i];
     }
     return sum;
+}
+#endregion
+
+//dunenki tasklar metodlarla..
+
+#region  task 1:
+int[] FactorialArray(int[] fact)
+{
+    int[] factclone = new int[fact.Length];
+    for (int i = 0; i < fact.Length; i++)
+    {
+        int factorial = 1;
+        if (fact[i] == 0)
+        {
+            Console.WriteLine("1"); ;
+        }else
+            for (int j = 1; j <= fact[i]; j++)
+            {
+                factorial *= j;
+            }
+        factclone[i] = factorial;
+    }
+    return factclone;
+}
+#endregion
+#region task 2:
+int[] Massiv(int[] massi)
+{
+    if (massi == null) return null;
+    if (massi.Length == 0) return new int[0];
+
+    int minIndex = 0;
+    for (int i = 1; i < massi.Length; i++)
+        if (massi[i] < massi[minIndex]) minIndex = i;
+
+    int[] massiclone = new int[massi.Length - 1];
+    int j = 0;
+    for (int i = 0; i < massi.Length; i++)
+    {
+        if (i == minIndex) continue;
+        massiclone[j++] = massi[i];
+    }
+        return massiclone;
 }
 #endregion
