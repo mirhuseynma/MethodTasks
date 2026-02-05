@@ -7,8 +7,15 @@ Console.WriteLine(CountSingle(1,10));
 Console.WriteLine(SumSingle(1, 10));
 Console.WriteLine(SimpleOrComplex(102));
 Console.WriteLine(SumCoupleinArray([10,11,12,13,14,15]));
-Console.WriteLine(string.Join(", ", FactorialArray(new int[] { 1, 5, 8 })));
-Console.WriteLine(string.Join(", ", Massiv(new int[] { 1, 5, 8 })));
+Console.WriteLine(string.Join(", ", FactorialArray(new int[] { 0, 5, 8 })));
+Console.WriteLine(string.Join(", ", Massiv(new int[] { 2,3,4 })));
+FirstCharLetter("lama");
+Console.WriteLine(Polindrom(10,90));
+LetterAgain("kertenkele");
+Console.WriteLine(NoEmptySecond("kmasm ksmdkm ksmdk "));
+Calculate(5, 6, '*');
+CheckA("Abdullazade");
+
 
 Console.ReadLine();
 
@@ -137,8 +144,8 @@ int[] FactorialArray(int[] fact)
 #region task 2:
 int[] Massiv(int[] massi)
 {
-    if (massi == null) return null;
-    if (massi.Length == 0) return new int[0];
+    if (massi == null) return null;                     // eger massivin icersi bosdursa "bosdur cap edir"
+    if (massi.Length == 0) return new int[0];           // eger massivin uzunlugu sifira beraberdirse boslug cap olunur
 
     int minIndex = 0;
     for (int i = 1; i < massi.Length; i++)
@@ -148,9 +155,127 @@ int[] Massiv(int[] massi)
     int j = 0;
     for (int i = 0; i < massi.Length; i++)
     {
-        if (i == minIndex) continue;
-        massiclone[j++] = massi[i];
+        if (i == minIndex) 
+            continue;
+        massiclone[j++] = massi[i];                 // kicik olmayan her bir elementin indeksini 1 vahid artiraraq yeni indeksin bos yerlerine yerlesdiririk
     }
         return massiclone;
+}
+#endregion
+#region task 3:
+void FirstCharLetter(string word)
+{
+    for (int i = 0; i < word.Length; i++)
+    {
+        char wordAgain = word[i];
+        int aGain = 0;
+        for (int j = 0; j < word.Length; j++)
+        {
+            if (wordAgain == word[j])
+                aGain++;
+        }
+        if (aGain == 1) { 
+            Console.WriteLine($"{word} stringinde '{wordAgain}' 1 defe istifade olununb");
+            break;
+        }
+    }
+}
+#endregion
+#region task 4:
+string Polindrom(int n, int m)
+{
+    string polindrom = default;
+    for (int i = n; i <= m; i++)
+    {
+        int esas = i;
+        int tersI = 0;
+        int qaliq;
+        while (esas > 0)
+        {
+            qaliq = esas % 10;
+            tersI = (tersI * 10) + qaliq;
+            esas /= 10;
+        }
+        if (i == tersI)
+        {
+            polindrom += i + " ";
+        }
+    }
+    return polindrom ;
+}
+#endregion
+#region task 5: 
+void LetterAgain(string a)
+{
+    char wordagain = a[0];
+    int again = 0;
+    for (int i = 0; i < a.Length; i++)
+    {
+        char nowChar = a[i];
+        int now = 0;
+        for (int j = 0; j < a.Length; j++)
+        {
+            if (nowChar == a[j])
+                now++;
+        }
+        if (now > again)
+        {
+            again = now;
+            wordagain = nowChar;
+        }
+    }
+    Console.WriteLine($"en cox istifida edilen: {wordagain}, istifade edilib: {again} defe");
+}
+#endregion
+#region task 6:
+string NoEmptySecond (string name)
+{
+    char emptyle = ' ';
+    string newest = "";
+    for (int i = 0; i <name.Length; i++)
+    {
+        if (emptyle != name[i])
+            newest += name[i];
+    }
+    return newest;
+}
+#endregion
+#region task 7:
+void Calculate(int a, int b, char @operator)
+{
+    switch (@operator)
+    {
+        case '+':
+            Console.WriteLine(a + b);
+            break;
+        case '-':
+            Console.WriteLine(a - b);
+            break;
+        case '/':
+            Console.WriteLine(a / b);
+            break;
+        case '*':
+            Console.WriteLine(a * b);
+            break;
+        default:
+            Console.WriteLine("Simvolu duzgun secin: +, -, *, /");
+            break;
+    }
+}
+#endregion
+#region task 8: 
+void CheckA(string word)
+{
+    char emtptyLorem = 'A';
+    bool search = false;
+    for (int i = 0; i < word.Length; i++)
+    {
+        if (emtptyLorem == word[i])
+            search = true;
+    }
+    if (!search)
+        Console.WriteLine($"{emtptyLorem} verilmis stringde istifade olunmayib");
+    else
+        Console.WriteLine($"'{emtptyLorem}' stringde istifade edilib");
 }
 #endregion
