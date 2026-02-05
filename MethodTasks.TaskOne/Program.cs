@@ -279,3 +279,4 @@ void CheckA(string word)
         Console.WriteLine($"'{emtptyLorem}' stringde istifade edilib");
 }
 #endregion
+
