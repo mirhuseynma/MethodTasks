@@ -1,4 +1,5 @@
-﻿Console.WriteLine(Sequance(5));
+﻿#region methods
+Console.WriteLine(Sequance(5));
 Console.WriteLine(string.Join(", ", ArraySequance(new int[]{ 1,5,8})));
 Console.WriteLine(NoEmpty("Mirhuseyn Abdullazade Mirsedi oglu"));
 Console.WriteLine(string.Join(", ", AddValuleToArray(new int[] { 1, 5, 8 },11)));
@@ -15,9 +16,8 @@ LetterAgain("kertenkele");
 Console.WriteLine(NoEmptySecond("kmasm ksmdkm ksmdk "));
 Calculate(5, 6, '*');
 CheckA("Abdullazade");
-
-
 Console.ReadLine();
+#endregion
 
 #region Verilmiş ədədi kvadratına yüksəldən metod.
 int Sequance(int a)
@@ -121,7 +121,7 @@ int SumCoupleinArray(int[] couplearray)
 
 //dunenki tasklar metodlarla..
 
-#region  task 1:
+#region  task 1: 
 int[] FactorialArray(int[] fact)
 {
     int[] factclone = new int[fact.Length];
@@ -140,7 +140,7 @@ int[] FactorialArray(int[] fact)
     }
     return factclone;
 }
-#endregion
+#endregion 
 #region task 2:
 int[] Massiv(int[] massi)
 {
