@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MethodTasks.TaskOne"
+    "\\MethodTasks.TaskOne",
+    "\\MethodTasks.Test"
   ],
-  "SelectedNode": "\\MethodTasks.TaskOne\\Program.cs",
+  "SelectedNode": "\\MethodTasks.Test\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

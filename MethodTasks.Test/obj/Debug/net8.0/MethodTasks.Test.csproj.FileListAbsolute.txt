@@ -1,0 +1,15 @@
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\bin\Debug\net8.0\MethodTasks.Test.exe
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\bin\Debug\net8.0\MethodTasks.Test.deps.json
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\bin\Debug\net8.0\MethodTasks.Test.runtimeconfig.json
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\bin\Debug\net8.0\MethodTasks.Test.dll
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\bin\Debug\net8.0\MethodTasks.Test.pdb
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\obj\Debug\net8.0\MethodTasks.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\obj\Debug\net8.0\MethodTasks.Test.AssemblyInfoInputs.cache
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\obj\Debug\net8.0\MethodTasks.Test.AssemblyInfo.cs
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\obj\Debug\net8.0\MethodTasks.Test.csproj.CoreCompileInputs.cache
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\obj\Debug\net8.0\MethodTasks.Test.sourcelink.json
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\obj\Debug\net8.0\MethodTasks.Test.dll
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\obj\Debug\net8.0\refint\MethodTasks.Test.dll
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\obj\Debug\net8.0\MethodTasks.Test.pdb
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\obj\Debug\net8.0\MethodTasks.Test.genruntimeconfig.cache
+C:\Users\mirhuseynma\Desktop\MethodTasks\MethodTasks.Test\obj\Debug\net8.0\ref\MethodTasks.Test.dll
