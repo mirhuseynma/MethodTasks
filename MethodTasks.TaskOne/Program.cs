@@ -280,5 +280,5 @@ void CheckA(string word)
 }
 #endregion
 
-Consol.WriteLine("Hello world")
+
 

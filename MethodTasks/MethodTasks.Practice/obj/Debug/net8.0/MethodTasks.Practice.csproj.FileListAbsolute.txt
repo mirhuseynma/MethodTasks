@@ -1,0 +1,15 @@
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\obj\Debug\net8.0\MethodTasks.Practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\obj\Debug\net8.0\MethodTasks.Practice.AssemblyInfoInputs.cache
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\obj\Debug\net8.0\MethodTasks.Practice.AssemblyInfo.cs
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\obj\Debug\net8.0\MethodTasks.Practice.csproj.CoreCompileInputs.cache
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\obj\Debug\net8.0\MethodTasks.Practice.sourcelink.json
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\bin\Debug\net8.0\MethodTasks.Practice.exe
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\bin\Debug\net8.0\MethodTasks.Practice.deps.json
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\bin\Debug\net8.0\MethodTasks.Practice.runtimeconfig.json
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\bin\Debug\net8.0\MethodTasks.Practice.dll
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\bin\Debug\net8.0\MethodTasks.Practice.pdb
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\obj\Debug\net8.0\MethodTasks.Practice.dll
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\obj\Debug\net8.0\refint\MethodTasks.Practice.dll
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\obj\Debug\net8.0\MethodTasks.Practice.pdb
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\obj\Debug\net8.0\MethodTasks.Practice.genruntimeconfig.cache
+C:\Users\abdul\OneDrive\Desktop\MethodTasks\MethodTasks\MethodTasks.Practice\obj\Debug\net8.0\ref\MethodTasks.Practice.dll
